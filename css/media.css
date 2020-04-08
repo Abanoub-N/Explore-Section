@@ -1,0 +1,179 @@
+/* extra amall rules [ xs ] */
+
+@media all and (max-width: 576px) {
+  /*====== Start Navbar ======*/
+  .navbar {
+    background-color: #fff;
+  }
+  .navbar a {
+    color: #007bff;
+  }
+
+  .navbar ul li a::after,
+  .transparent ul li a::after {
+    left: 0px;
+  }
+  .navbar {
+    background-color: #fff;
+    padding: 8px;
+  }
+
+  /*====== Start Home ======*/
+
+  .home {
+    text-align: center;
+  }
+
+  .home h1 {
+    font-size: 42px;
+  }
+
+  .home p {
+    font-size: 28px;
+  }
+
+  /* ====== Start Section About  ====== */
+
+  .about .info img {
+    margin-bottom: 35px;
+  }
+
+  /* ====== Start Section Counter  ====== */
+
+  .counter .box {
+    padding: 10px 0;
+  }
+
+  /*===== Start Section Testimonials ======*/
+
+  .testimonials .carousel-inner {
+    margin: 0 !important;
+  }
+
+  .carousel-indicators {
+    bottom: -50px;
+  }
+
+  .testimonials .carousel p {
+    padding: 0;
+  }
+
+  /*===== Start Section BLog ======*/
+
+  .blog .card {
+    margin-bottom: 50px;
+  }
+
+  .blog .card .card-footer .clock {
+    margin-top: 15px;
+  }
+
+  .contact .cont-title h2 {
+    margin: 25px 0;
+  }
+}
+
+/* extra amall rules [ s ] */
+
+@media all and (min-width: 577px) and (max-width: 767px) {
+  /*====== Start Navbar ======*/
+
+  .navbar {
+    background-color: #fff;
+  }
+  .navbar a {
+    color: #007bff;
+  }
+
+  .navbar ul li a::after,
+  .transparent ul li a::after {
+    left: 0px;
+  }
+
+  .navbar {
+    background-color: #fff;
+    padding: 8px;
+  }
+
+  /*====== Start Home ======*/
+
+  .home {
+    text-align: center;
+  }
+
+  .home h1 {
+    font-size: 52px;
+  }
+
+  .home p {
+    font-size: 28px;
+  }
+
+  /* ====== Start Section About  ====== */
+
+  .about .info img {
+    margin-bottom: 35px;
+  }
+
+  /* ====== Start Section Counter  ====== */
+
+  .counter .box {
+    padding: 10px 0;
+  }
+
+  /*===== Start Section Testimonials ======*/
+
+  .testimonials .carousel-inner {
+    margin: 0 !important;
+  }
+
+  .carousel-indicators {
+    bottom: -50px;
+  }
+
+  .testimonials .carousel p {
+    padding: 0;
+  }
+
+  /*===== Start Section BLog ======*/
+
+  .blog .card {
+    margin-bottom: 50px;
+  }
+
+  .blog .card .card-footer .clock {
+    margin-top: 20px;
+  }
+}
+
+/* small screen rules [ md ] */
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  /*====== Start Navbar ======*/
+
+  .navbar {
+    background-color: #fff;
+  }
+  .navbar a {
+    color: #007bff;
+  }
+
+  .navbar ul li a::after,
+  .transparent ul li a::after {
+    left: 0px;
+  }
+  .navbar {
+    background-color: #fff;
+    padding: 8px;
+  }
+}
+
+/* medium screen rules [ lg ]*/
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Larg screen rules [ xl ] */
+
+@media all and (min-width: 1200px) and (max-width: 2555px) {
+}
